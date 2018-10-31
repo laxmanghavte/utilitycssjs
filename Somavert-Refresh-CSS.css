@@ -1,0 +1,2563 @@
+@import url('https://use.typekit.net/mqh5msk.css');
+/*@import url('https://fonts.googleapis.com/css?family=roboto+Condensed:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=roboto:100,300,400,500,700,900');*/
+body{
+	background: #fff;
+	font-family: 'roboto', sans-serif;
+	font-weight: 400;
+	border: 3px solid red;
+	line-height: 1.2;
+	color: #000;
+}
+/*Common Styling And Resets For Basic Layout Starts*/
+#sidebar-a{
+	display: none;
+}
+#breadcrumb{
+	display: none;
+}
+.robo-bold {
+	font-family: roboto, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+.cond-bold {
+	font-family: roboto-condensed, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+.page-width{
+	width: 100%;
+}
+.stack .box{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.somavert-content-wrapper{
+	width: 100%;
+	max-width: 100%;
+	margin:0 auto;
+    box-sizing: border-box;
+}
+.somavert-content-area{
+	width: 100%;
+	max-width: 1160px;
+	margin: 0 auto;
+}
+#main #page-title{
+	display: none;
+}
+/*#page #header{
+	display: none;
+}*/
+#content .wrapper-content .stack{
+    padding-top: 0;
+}
+.wrapper-content{
+	margin-top: 0;
+}
+	
+/*Common Styling And Resets For Basic Layout Ends*/
+/**************Menu CSS***************************/
+.not-logged-in div#block-system-user-menu {
+    display: none;
+}
+.col-second.col.left.last.tb-height-balance.tb-terminal {
+    display: none;
+}
+.page-element.site-name-wrapper {
+	display: none;
+}
+.wrapper-header .block ul {
+    margin-top: 0;
+    padding: 0;
+}
+#block-system-main-menu ul.menu li {
+    float: left;
+    list-style: none;
+	padding: 0 16px;
+}
+#block-system-main-menu ul.menu li:last-child {
+    padding: 0 0 0 16px;
+}
+#block-system-main-menu ul.menu li  a{
+	color: #21409a;
+	font-family: 'roboto', sans-serif;
+	font-size: 18px;
+}
+#block-system-main-menu ul.menu li a:hover {
+    text-decoration: none;
+}
+li.expanded ul.menu {
+    display: none;
+}
+div#header-inner {
+    max-width: 1160px;
+    width: 100%;
+    margin: 0 auto;
+	padding-bottom: 15px;
+}
+.region-header .page-element {
+	width: auto;
+}
+.page-element.logo-wrapper {
+    float: left;
+    max-width: 236px;
+    width: 100%;
+}
+.region-header .block {
+    clear: unset;
+    float: left;
+    width: 76.5%;
+	padding-top: 88px;
+	margin-left: 25px;
+}
+h1#site-name {
+	display: none;
+}
+.col-2 .col {
+	width: 100%;
+	padding: 0;
+    margin: 0;
+}
+
+#preheader .region-preheader-first .top-nav-menu {
+	float: right;
+}
+#preheader .region-preheader-first .top-menu-wrapper {
+	float: left;
+	margin-top: 20px;
+}
+#preheader .region-preheader-first .top-menu-subwrapper {
+	float: left;
+}
+#preheader .region-preheader-first .top-menu-subwrapper ul li {
+	list-style: none;
+	float: left;
+    width: auto;
+	border-right: 1px solid #5a5a5a;
+}
+#preheader .region-preheader-first .top-menu-subwrapper ul li:last-child {
+	border-right: none;
+}
+#preheader .region-preheader-first .top-menu-subwrapper ul li a{
+	padding: 0 12px;
+	color: #5a5a5a;
+	font-size: 16px;
+	font-family: 'roboto', sans-serif;
+	font-weight: 400;
+}
+.region.region-preheader-first {
+    max-width: 1160px;
+    width: 100%;
+    margin: 0 auto;
+}
+/*****************Menu CSS Ends Here**************/
+/*****************Submenu CSS*********************/
+.submenu-wrapper {
+    border-top: 2px solid #8dc63f;
+}
+.submenu-wrapper .submenu-subwrapper {
+	background: url("/sites/g/files/g10052221/f/201810/submenu-bg.png") repeat;
+}
+.submenu-wrapper .submenu-subwrapper ul {
+	margin: 0 auto;
+    width: 100%;
+    max-width: 1160px;
+}
+.submenu-wrapper .submenu-subwrapper ul li {
+	display: inline-block;
+	width: auto;
+	padding: 10px 16px;
+}
+.submenu-wrapper .submenu-subwrapper ul li:first-child {
+	padding: 10px 16px 10px 0;
+}
+.submenu-wrapper .submenu-subwrapper ul li:last-child {
+	padding: 10px 0 10px 16px;
+}
+.submenu-wrapper .submenu-subwrapper ul li a {
+    font-family: 'roboto', sans-serif;
+    font-size: 16px;
+    color: #21409a;
+}
+/****************Submenu CSS ends here************/
+/*****************Homepage************************/
+#content-inner {
+	padding-top: 0;
+	padding: 0;
+}
+.not-logged-in .tabs {
+	display: none;
+}
+#node-46 h2.page-header {
+	display: none;
+}
+.home_wrapper .home_banner img.desktop-banner {
+	display: block;
+}
+.home_wrapper .home_banner img.mobile-banner {
+	display: none;
+}
+.home_wrapper .text_wrapper p {
+	font-family: roboto-condensed, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 40px;
+	color: #fafefe;
+	margin: 0;
+	padding-bottom: 5px;
+}
+.home_wrapper .text_wrapper a.banner_link {
+	font-family: roboto-condensed, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 28px;
+	color: #fafefe;
+}
+.home_wrapper .text_wrapper a.banner_link:hover {
+	text-decoration: none;
+}
+.home_wrapper .text_wrapper {
+	position: absolute;
+    bottom: 46px;
+    width: 100%;
+}
+.home_wrapper .text_wrapper .text_subwrapper {
+	max-width: 645px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+	background: rgba(46, 72, 148,0.9);
+	padding: 17px 0 14px 0;
+}
+.home_wrapper .text_wrapper .text_subwrapper .link-div {
+	background: url(/sites/g/files/g10052221/f/201810/link-arrow.png) no-repeat;
+    background-position: 78.5% 5px;
+}
+.home_wrapper .photo-disclaimer {
+	margin: 0 auto;
+    max-width: 1060px;
+    width: 100%;
+}
+.home_wrapper .photo-disclaimer p {
+    position: absolute;
+    bottom: 60px;
+	width: 15%;
+	font-size: 18px;
+	color: #5a5a5a;
+	font-family: roboto, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+/*****************Homepage Ends Here**************/
+/************Understanding Acromegaly Ends Here*******/
+.undersatnding-subwrapper {
+	margin: 0 auto;
+    width: 100%;
+    max-width: 1160px;
+	padding-top: 35px;
+}
+.undersatnding-subwrapper .what-is-acromegaly {
+	float: left;
+    width: 100%;
+    display: block;
+	padding-bottom: 40px;
+    border-bottom: 6px solid #e1e1e1;
+}
+.undersatnding-subwrapper .acromegaly-subwarpper {
+    display: block;
+    float: left;
+    width: 100%;
+    max-width: 823px;
+	padding-right: 9%;
+    box-sizing: border-box;
+}
+.acromegaly-subwarpper h1 {
+	font-family: roboto-condensed, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 34px;
+	color: #21409a;
+	padding-top: 5px;
+}
+.acromegaly-subwarpper p {
+	font-family: roboto-condensed, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 18px;
+	color: #5a5a5a;
+}
+.acromegaly-subwarpper p span {
+
+}
+.undersatnding-subwrapper .what-is-acromegaly .right-section {
+	float: left;
+    display: block;
+	border-left: 1px solid #b7b7b7;
+	padding-left: 3.5%;
+}
+.undersatnding-subwrapper .what-is-acromegaly .right-section .patient-video p {
+	width: 205px;
+    margin: 0 auto;
+    text-align: center;
+	font-family: roboto, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 18px;
+	padding-top: 14px;
+}
+.undersatnding-subwrapper .what-is-acromegaly .right-section .patient-video p a {
+	font-family: roboto, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 18px;
+	color: #21409a;
+}
+.undersatnding-subwrapper .what-is-acromegaly .right-section .patient-video p a:hover {
+	text-decoration: none;
+}
+.undersatnding-subwrapper .pituitary-acromegaly {
+	clear: both;
+	padding-top: 47px;
+	border-bottom: 6px solid #e1e1e1;
+}
+.undersatnding-subwrapper .header-part {
+	padding-bottom: 34px;
+}
+.undersatnding-subwrapper .header-part h2{
+	font-family: roboto, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 24px;
+	color: #00bdf2;
+}
+.undersatnding-subwrapper .header-part p{
+	font-family: roboto, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 18px;
+	color: #5a5a5a;
+	margin: 12px 0 0 0;
+}
+.undersatnding-subwrapper .igf-level {
+    padding-top: 52px;
+}
+.undersatnding-subwrapper .igf-level h2{
+	font-family: roboto, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 24px;
+	color: #00bdf2;
+}
+.undersatnding-subwrapper .igf-level p{
+	font-family: roboto, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 18px;
+	color: #5a5a5a;
+	margin: 12px 0 0 0;
+}
+/*********Understanding Acromegaly Ends Here**********/
+/******Signs and Symptoms of Acromegaly***************/
+.acromegaly-symptoms .symptomps-wrapper {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1160px;
+}
+.acromegaly-symptoms .symptomps-subwrapper h1 {
+	font-size: 34px;
+	color: #21409a;
+	font-family: roboto-condensed, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+.acromegaly-symptoms .symptomps-subwrapper p {
+	font-family: roboto, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 18px;
+	color: #5a5a5a;
+	margin: 26px 0 0 0;
+}
+.symptom-icon-wrapper {
+	display: block;
+	float: left;
+	width: 100%;
+	padding: 30px 0 50px 0;
+}
+.symptom-icon-wrapper .icon {
+    float: left;
+    display: inline-block;
+    width: auto;
+	padding: 0 53px;
+}
+.symptom-icon-wrapper .icon:first-child {
+    padding: 0 45px 0 30px;
+}
+.symptom-icon-wrapper .icon:last-child {
+    padding: 0 30px 0 45px;
+}
+.symptom-icon-wrapper .icon .imgwrapper {
+    min-height: 120px;
+}
+.symptom-icon-wrapper .icon p {
+	font-family: roboto, sans-serif;
+	font-weight: 700;
+	font-style: normal;	
+	font-size: 18px;
+	color: #21409a;
+	text-align: center;
+}
+.symptom-caution {
+    clear: both;
+	padding-bottom: 42px;
+	border-bottom: 6px solid #e1e1e1;
+}
+.symptom-caution p:first-child {
+    padding-bottom: 16px;
+}
+.symptom-caution p {
+    margin: 0;
+	font-family: roboto, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 18px;
+	color: #5a5a5a;
+}
+.igf-monitor {
+    clear: both;
+    float: left;
+    width: 100%;
+    display: block;
+	padding: 64px 0 0 0;
+}
+.app-wrapper {
+    display: block;
+    float: left;
+    width: 30%;
+}
+.igf-key-wrapper {
+    float: left;
+    width: 58%;
+}
+.igf-monitor .trackscreen {
+	text-align: center;
+}
+.stote-btn {
+    margin: 0 auto;
+}
+.stote-btn {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 200px;
+}
+.stote-btn img:first-child {
+    margin-right: 12px;
+    margin-top: 18px;
+}
+.stote-btn img {
+    width: 100%;
+    max-width: 89px;
+}
+.igf-key-wrapper .igf-upper-sec p{
+	font-family: roboto, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: #21409a;
+	font-size: 24px;
+}
+.igf-key-wrapper .igf-upper-sec p span{
+	font-family: roboto, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	color: #21409a;
+	font-size: 24px;
+}
+.igf-lower-sec {
+	padding: 30px 0 0 0;
+}
+.igf-lower-sec p:first-child {
+	padding: 0 0 7px 0;
+}
+.igf-key-wrapper .igf-lower-sec p{
+	font-family: roboto, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: #5a5a5a;
+	font-size: 12px;
+	margin: 0;
+}
+.igf-key-wrapper .igf-lower-sec p{
+	font-family: roboto, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: #5a5a5a;
+	font-size: 12px;
+	margin: 0;
+}
+/******Signs and Symptoms of Acromegaly Ends here*****/
+/***************Diagnosis Acromegaly******************/
+.diagnosis-subwrapper {
+    margin: 0 auto;
+    max-width: 1160px;
+    width: 100%;
+}
+.diagnosis-test {
+	float: left;
+    width: 80%;
+}
+.diagnosis-subwrapper .test-info {
+	max-width: 825px;
+    width: 100%;
+    padding: 40px 0 60px 0;
+    float: left;
+    border-bottom: 6px solid #e1e1e1;
+}
+ul.test-info :first-child {
+	margin: 0;
+}
+ul.test-info {
+	margin: 17px 0 0 0;
+}
+.test-info h1 {
+	font-family: roboto-condensed, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	color: #21409a;
+	font-size: 34px;
+}
+.test-info  p.test-para {
+	margin: 26px 0 0 0;
+	font-family: roboto, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 18px;
+	color: #5a5a5a;
+}
+ul.test-info-list li {
+	font-family: roboto, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 18px;
+	color: #00bdf2;
+}
+ul.test-info-list li span{
+	color: #58595b;
+}
+p.test-des {
+	font-family: roboto, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 18px;
+	margin: 15px 0 0 17px;
+}
+.acro-patient {
+    float: left;
+    display: block;
+    max-width: 900px;
+    width: 100%;
+	padding-top: 25px;
+}
+.patient-img {
+    float: left;
+    width: auto;
+	padding: 0 0 0 116px;
+}
+.patient-exp {
+    float: left;
+    width: 65%;
+	padding: 26px 0 0 50px;
+}
+.patient-exp p {
+	font-family: roboto, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: #21409a;
+	font-size: 24px;
+	margin: 0;
+}
+.patient-exp p.bold-txt {
+	font-weight: 700;
+}
+.patient-exp p.patient-name {
+	color: #5a5a5a;
+	font-size: 18px;
+	padding-top: 16px;
+}
+.patient-image {
+	padding-top: 46px;
+	float: left;
+    margin-left: -35px;
+}
+/**********Diagnosis Acromegaly Ends here*************/
+/**********Treating and Monitoring Acromegaly*************/
+.acro-wrapper {
+    margin: 0 auto;
+    max-width: 1160px;
+    width: 100%;
+}
+.acro-wrapper .acro-left .left-sction {
+	max-width: 100%;
+	width: 100%;
+	float: left;
+	border-bottom: 6px solid #e1e1e1;
+    padding: 0 0 30px 0;
+}
+.acro-wrapper .acro-left .left-sction h1 {
+	font-family: roboto-condensed, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 34px;
+	color: #21409a;
+	padding-bottom: 30px;
+}
+.acrotext-wrapper {
+	max-width: 820px;
+    width: 100%;
+    float: left;
+	border-right: 1px solid #b7b7b7;
+}
+.acro-headwrapper {
+    width: 95%;
+}
+.acro-headwrapper h2{
+	color: #00bdf2;
+	font-size: 24px;
+	font-family: roboto, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+.acro-headwrapper1 .acro-surgery-info {
+	padding: 17px 0 20px 0;
+}
+.acro-headwrapper2 .acro-surgery-info {
+	padding: 12px 0 0 0;
+}
+.acro-wrapper p {
+	font-family: roboto, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 18px;
+	color: #5a5a5a;
+	margin: 0;
+}
+.acro-wrapper .acro-left {
+	float: left;
+	width: 100%;
+	display: block;
+	padding: 45px 0 0 0;
+}
+.acro-wrapper .acro-left .right-sction {
+	float: left;
+	width: 28%;
+}
+.acro-left .right-sction .igf-download {
+	max-width: 230px;
+    width: 100%;
+    margin: 0 auto;
+	padding-top: 30px;
+}
+.acro-left .right-sction .igf-img {
+	text-align: center;
+}
+.acro-left .right-sction .igf-img a {
+	display: inline-block;
+}
+.acro-left .right-sction .igf-text {
+	padding-top: 20px;
+}
+.acro-left .right-sction .igf-text a {
+	font-family: roboto, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 18px;
+	color: #21409a;
+}
+.acro-left .right-sction .igf-text a span {
+	font-weight: 700;
+}
+.acro-monitor {
+    float: left;
+    width: 100%;
+	padding: 38px 0 0 0;
+}
+.acro-monitor .left-monitor {
+    max-width: 820px;
+    width: 100%;
+    float: left;
+}
+.acro-monitor .right-monitor {
+	float: left;
+	width: 28%;
+}
+.acro-monitor .left-monitor h2{
+	font-size: 34px;
+	color: #21409a;
+	font-family: roboto-condensed, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+.acro-monitor .left-monitor .monitor-text-wrapper {
+    border-right: 1px solid #b7b7b7;
+    padding: 32px 7% 0 0;
+    margin: -16px 0 0 0;
+	width: 93%;
+}
+.monitor-text-wrapper p {
+	margin: 0 0 15px 0;
+}
+.right-monitor .tracker-download {
+	max-width: 230px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.tracker-img {
+	text-align: center;
+}
+.tracker-img a {
+	display: inline-block;
+}
+.tracker-text {
+	padding-top: 20px;
+}
+.tracker-text p {
+	font-family: roboto, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 18px;
+	color: #21409a;
+	width: 95%;
+}
+.tracker-text p a {
+	font-weight: 700;
+    border-bottom: 1px solid #21409a;
+    text-decoration: none;
+    line-height: 1;
+    display: inline-block;
+    color: #21409a;
+}
+.tracker-text p a:hover {
+	text-decoration: none;
+}
+/******Treating and Monitoring Acromegaly Ends here*******/
+/*************Living With Acromegaly**************/
+.living-acro-wrapper {
+	max-width: 1160px;
+	width: 100%;
+	margin: 0 auto;
+}
+.living-upper-section {
+	float: left;
+	width: 100%;
+	padding-top: 40px;
+	border-bottom: 6px solid #e1e1e1;
+}
+.living-upper-section h1 {
+	color: #21409a;
+	font-size: 34px;
+	font-family: roboto-condensed, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+.living-upper-section p {
+	color: #5a5a5a;
+	font-size: 18px;
+	font-family: roboto, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+.living-middle-section {
+    clear: both;
+    float: left;
+    border-bottom: 6px solid #e1e1e1;
+    padding: 35px 0;
+}
+.living-listed-pt {
+	float: left;
+    width: 100%;
+    max-width: 800px;
+	padding-right: 35px;
+}
+.living-listed-pt ul {
+    margin: 0;
+    padding: 35px 0 0 20px;
+}
+.living-listed-pt ul li {
+	color: #00bdf2;
+	font-family: roboto, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 18px;
+	margin-bottom: 14px;
+}
+.living-listed-pt ul li span {
+	color: #58595b;
+}
+.living-rt-section {
+    float: left;
+    width: 23%;
+    padding-left: 3%;
+    border-left: 1px solid #e1e1e1;
+}
+.living-rt-section p {
+	margin: 0;
+	font-family: roboto, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: #21409a;
+}
+.living-rt-section p span{
+	font-weight: 700;
+}
+.living-rt-section p a{
+	font-weight: 700;
+	color: #21409a;
+	font-size: 18px;
+}
+.living-rt-section .rt-upper p {
+	font-size: 24px;
+}
+.living-rt-section .rt-lower p {
+	font-size: 18px;
+}
+.living-rt-section .living-lst-section {
+    float: left;
+	width: 100%;
+}
+.living-lst-section {
+    float: left;
+    width: 100%;
+    display: block;
+    padding-top: 25px;
+}
+.living-profile {
+    float: left;
+    width: auto;
+    padding: 0 0 0 116px;
+}
+.living-profile-desc {
+    float: left;
+    width: 65%;
+    padding: 30px 0 0 40px;
+}
+.living-profile-desc p.patient-exp {
+    float: left;
+    width: 90%;
+    padding: 0 0 0 0;
+    margin: 0;
+	font-size: 24px;
+	color: #21409a;
+}
+.living-profile-desc p.patient-exp span {
+	font-weight: 700;
+}
+.living-profile-desc p.patient-name {
+    color: #5a5a5a;
+    font-size: 18px;
+    padding-top: 12px;
+    width: 100%;
+    float: left;
+    margin: 0;
+}
+/******Living With Acromegaly Ends here******/
+/************Saving And Support**************/
+.saving-subwrapper {
+    max-width: 1160px;
+    width: 100%;
+    margin: 0 auto;
+}
+.finance-section {
+	float: left;
+    width: 100%;
+    margin: 42px 0 0 0;
+}
+.finance-info {
+    float: left;
+    width: 100%;
+    max-width: 825px;
+}
+.finance-info h1 {
+    width: 53%;
+	font-size: 34px;
+    font-weight: 700;
+    color: #21409a;
+    font-family: 'roboto-condensed',sans-serif;
+}
+.finance-info p {
+	color: #00bdf2;
+    font-size: 24px;
+	font-weight: 700;
+	font-family: 'roboto',sans-serif;
+	margin: 0;
+    padding: 30px 0 0 0;
+}
+.finance-info ul {
+    margin: 0;
+    padding: 12px 0 0 20px;
+}
+.finance-info ul li {
+	color: #00bdf2;
+	font-size: 18px;
+}
+.finance-info ul li span {
+	color: #58595b;
+	margin-left: -6px;
+}
+.finance-price {
+    float: left;
+    width: 25%;
+    border-left: 1px solid #b7b7b7;
+    padding-left: 3.5%;
+}
+.finance-price .currency-img {
+    text-align: center;
+	width: 66%;
+}
+.finance-price .eligible {
+    padding: 18px 0 25px 0;
+}
+.finance-price .eligible p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #21409a;
+    font-family: 'roboto',sans-serif;
+    width: 100%;
+    margin: 0;
+}
+.finance-price .eligible p.txt-bold {
+	font-weight: 700;
+	width: 70%;
+	padding-bottom: 7px;
+}
+.finance-price .eligible p sup {
+    display: inline-block;
+    width: auto;
+    vertical-align: 0;
+}
+.footnote {
+    clear: both;
+    width: 100%;
+	padding: 16px 0 10px 0;
+}
+.footnote p {
+    font-size: 11px;
+    font-family: 'roboto',sans-serif;
+    font-weight: 400;
+    margin: 0;
+    color: #5a5a5a;
+    line-height: 1;
+}
+.footnote p sup {
+    vertical-align: 0;
+}
+.terms-condition {
+    float: left;
+    width: 100%;
+    padding: 0 0 50px 0;
+    border-bottom: 6px solid #e1e1e1;
+}
+.terms-condition h2 {
+	line-height: 1;
+	font-size: 12px;
+	font-weight: 700;
+	color: #5a5a5a;
+	margin: 0 0 10px 0;
+}
+.left-ul {
+    float: left;
+    width: 50%;
+    padding: 0 60px 0 0;
+}
+.right-ul {
+    float: left;
+    width: 40%;
+}
+.left-ul ul,.right-ul ul {
+	margin: 0;
+}
+.left-ul ul li,.right-ul ul li {
+	font-size: 12px;
+	color: #5a5a5a;
+	margin: 0 0 8px 0;
+}
+.left-ul ul li span, .right-ul ul li span {
+    margin: 0 0 0 -6px;
+	display: block;
+}
+.patient-assistance {
+    clear: both;
+}
+.assist-info h2 {
+    font-size: 24px;
+    color: #00bdf2;
+    font-weight: 700;
+    line-height: 1;
+	padding: 70px 0 18px 0;
+}
+.assist-info h2 sup{
+	font-size: 12px;
+}
+.assist-info p {
+    color: #5a5a5a;
+    font-size: 18px;
+    margin: 0;
+}
+.assist-info p sup {
+    font-size: 9px;
+}
+/*******Saving And Support Ends here********/
+/*1.0 About Soma LP Styling Starts*/
+.page-node-41{
+	border: 2px solid blue;
+}
+
+.page-node-41 .somavert-content-area h2{
+	font-size: 34px;
+    font-weight: 700;
+    color: #21409a;
+    font-family: 'roboto-condensed',sans-serif;
+    word-spacing: 6px;
+    line-height: 1.1;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.page-node-41 .somavert-content-area h2>a{
+	color: inherit;
+	text-decoration: underline;
+}
+
+.page-node-41 p.desc{
+	color: #58595b;
+	font-family: 'roboto', sans-serif;
+	font-size: 18px;
+	margin-bottom: 25px;
+}
+.page-node-41 .about-content-table{
+	display: table;
+    width: 100%;
+}
+.page-node-41 .about-content-left{
+	display: table-cell;
+    width: 50%;
+	padding-right: 0;
+	border-right: 1px solid rgba(88, 89, 91, 0.4);
+}
+.page-node-41 .about-content-right{
+    display: table-cell;
+    padding-left: 6%;
+}
+.page-node-41 .sub-heading-sky-blue{
+	color: #00bdf2;
+	font-size: 24px;
+	font-weight: 700;
+}
+.page-node-41 .about-content-list-item {
+    display: block;
+    width: 75%;
+    position: relative;
+    padding-left: 14%;
+}
+.page-node-41 .about-content-right .about-content-list-item{
+	display: block;
+    width: 90%;
+    position: relative;
+    padding-left: 14%;
+}
+.page-node-41 .about-content-list-item img{
+	position: absolute;
+    left: 0;
+}
+.page-node-41 .about-content-list-item sup{
+	font-size: 12px;
+}
+.about-content-list-item p.desc>.blue-text{
+	font-size: 22px;
+	color: #21409a;
+	font-weight: 700;
+}
+p.padding-left-mng{
+	padding-left: 10px;
+}
+.page-node-41 p.footnotes{
+	position: relative;
+	width: 100%;
+	padding-left: 10px;
+}
+.page-node-41 p.small-text{
+	font-size: 12px;
+	width: 93%;
+	color: #58595b;
+	margin-top: 10px;
+}
+
+p.footnotes>sup{
+	position: absolute;
+	left: 0px;
+	font-size: 9px;
+}    
+.mar-bt-zero{
+	margin-bottom: 0 !important;
+}
+.mar-tp-40-desk{
+	margin-top: 40px !important;
+}
+
+/*1.0 About Soma LP Styling Ends*/
+
+/*******1.1 How Somavert Works Styling Starts Here**************/
+.page-node-56{
+	border: 1px solid gold;
+}
+.page-node-56 .somavert-work-section-1{
+	padding: 40px 0;
+	border-bottom: 5px solid rgba(88,89,91,0.4); 
+}
+.page-node-56 .somavert-work-section-1 h2{
+	font-size: 34px;
+    font-weight: 700;
+    color: #21409a;
+    font-family: 'roboto-condensed',sans-serif;
+    word-spacing: 6px;
+    line-height: 1.1;
+}
+.page-node-56 .somavert-work-section-1 .section-1-content{
+	display: table;
+	width: 100%;
+}
+.page-node-56 .somavert-work-section-1 .section-1-content .section-1-content-left{
+	display: table-cell;
+	width: 71%;
+	vertical-align: top;
+    border-right: 1px solid rgba(88,89,91,0.4);
+}
+.page-node-56 .section-1-content-left .icon-text{
+	position: relative;
+    padding-left: 87px;
+    padding-right: 30px;
+    padding-right: 30px;
+    font-size: 18px;
+    font-family: 'roboto',sans-serif;
+    text-align: left;
+    line-height: 1.6;
+}
+.page-node-56 .section-1-content-left .icon-text img{
+	position: absolute;
+    left: 0;
+}
+.page-node-56 .somavert-work-section-1 .section-1-content .section-1-content-right{
+	display: table-cell;
+	width: 29%;
+	vertical-align: top;
+	padding-left: 45px;
+	text-align: center;
+}
+.page-node-56 .somavert-work-section-1 .section-1-content .section-1-content-right .blue-text{
+	font-size: 18px;
+	color: #21409a;
+	padding-right: 26px;
+	text-align: left;
+}
+.page-node-56 .somavert-work-section-1 .section-1-content .section-1-content-right .blue-text>a{
+	color: #21409a;
+	font-weight: 700;
+	text-decoration: underline;
+}
+.page-node-56 .somavert-work-section-1 .section-1-content .section-1-content-right .blue-text>a:hover{
+		color: #21409a;
+}
+.page-node-56 p.desc{
+	color: #58595b;
+    font-family: 'roboto',sans-serif;
+    font-size: 18px;
+	margin-top: 15px;
+}
+.page-node-56 .text-heavy,.page-node-56 .text-heavy>a{
+	font-weight: 700;
+	font-size: inherit;
+	color: inherit;
+	font-family: inherit;
+}
+.page-node-56 .text-heavy>a{
+	color: #21409a;
+	text-decoration: underline;
+}
+.page-node-56 .text-heavy>a:hover{
+	color: #21409a;
+	text-decoration: underline;
+}
+
+.page-node-56 .somavert-work-section-2{
+	padding: 40px 0;
+	border-bottom: 5px solid rgba(88,89,91,0.4); 
+
+}
+.page-node-56 .somavert-work-section-2 .sub-heading-sky-blue{
+	color: #00bdf2;
+    font-size: 24px;
+    font-weight: 700;
+	margin-top: 20px;
+}
+.page-node-56 .somavert-work-section-2 img{
+	    width: 100%;
+    max-width: 1012px;
+    height: auto;
+    display: inline-block;
+    margin: 60px 0;
+}
+
+.page-node-56 .somavert-work-section-3 .icon-text{
+	    width: 60%;
+    margin: 0 auto;
+    padding-left: 120px;
+    position: relative;
+    font-size: 18px;
+    font-family: 'roboto',sans-serif;
+    text-align: left;
+    line-height: 1.2;
+    color: #21409a;
+}
+
+.page-node-56 .somavert-work-section-3 .icon-text img{
+	position: absolute;
+	left: 0;
+    top: -18px;
+}
+.page-node-56 .somavert-work-section-3{
+	padding: 60px 0;
+}
+.page-node-56 .somavert-work-section-3 .text-heavy{
+	display: block;
+}
+
+/*******1.1 How Somavert Works Styling Starts Here**************/
+
+
+/*******1.2 how-to-take Somavert Works Styling Starts Here**************/
+
+.page-node-81{
+    border: 1px solid gold;
+}
+.page-node-81 .how-to-take-section-1,.page-node-81 .how-to-take-section-2,.page-node-81 .how-to-take-section-3,.page-node-81 .how-to-take-section-4{
+    padding: 40px 0;
+    border-bottom: 5px solid rgba(88,89,91,0.4); 
+}
+.page-node-81 .how-to-take-section-4{
+    border-bottom: none;
+}
+.page-node-81 .how-to-take-section-1 h2{
+    font-size: 34px;
+    font-weight: 700;
+    color: #21409a;
+    font-family: 'roboto-condensed',sans-serif;
+    word-spacing: 6px;
+    line-height: 1.1;
+}
+.page-node-81 .sub-heading-sky-blue{
+	color: #00bdf2;
+    font-size: 24px;
+    font-weight: 700;
+}
+.page-node-81 .how-to-take-section-1 .section-1-content,.page-node-81 .how-to-take-section-2 .section-2-content,.page-node-81 .how-to-take-section-3 .section-3-content{
+    display: table;
+    width: 100%;
+}
+.page-node-81 .how-to-take-section-1 .section-1-content .section-1-content-left,.page-node-81 .how-to-take-section-2 .section-2-content .section-2-content-left,.page-node-81 .how-to-take-section-3 .section-3-content .section-3-content-left{
+    display: table-cell;
+    width: 71%;
+    vertical-align: top;
+    border-right: 1px solid rgba(88,89,91,0.4);
+}
+
+.page-node-81 .how-to-take-section-1 .section-1-content .section-1-content-right,.page-node-81 .how-to-take-section-2 .section-2-content .section-2-content-right,.page-node-81 .how-to-take-section-3 .section-3-content .section-3-content-right{
+    display: table-cell;
+    width: 29%;
+    vertical-align: top;
+    padding-left: 45px;
+    text-align: center;
+}
+.page-node-81 .how-to-take-section-1 .section-1-content .section-1-content-right .blue-text,.page-node-81 .how-to-take-section-2 .section-2-content .section-2-content-right .blue-text,.page-node-81 .how-to-take-section-3 .section-3-content .section-3-content-right .blue-text{
+    font-size: 18px;
+    color: #21409a;
+    padding-right: 5px;
+    text-align: left;
+}
+.blue-text>a{
+    color: #21409a;
+    font-weight: 700;
+    text-decoration: underline;
+}
+.blue-text>a:hover{
+        color: #21409a;
+}
+.page-node-81 p.desc{
+    color: #58595b;
+    font-family: 'roboto',sans-serif;
+    font-size: 18px;
+    margin-top: 15px;
+}
+.page-node-81 .text-heavy,.page-node-81 .text-heavy>a{
+    font-weight: 700;
+    font-size: inherit;
+    color: inherit;
+    font-family: inherit;
+}
+.page-node-81 .text-heavy>a{
+    color: #21409a;
+    text-decoration: underline;
+}
+.page-node-81 .text-heavy>a:hover{
+    color: #21409a;
+    text-decoration: underline;
+}
+
+.page-node-81 .how-to-take-section-2{
+    padding: 40px 0;
+    border-bottom: 5px solid rgba(88,89,91,0.4); 
+
+}
+.page-node-81 .how-to-take-section-2 .sub-heading-sky-blue,.page-node-81 .how-to-take-section-3 .sub-heading-sky-blue{
+    color: #00bdf2;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.page-node-81 .how-to-take-section-2 img{
+        width: 100%;
+    max-width: 185px;
+    height: auto;
+    display: inline-block;
+}
+
+.page-node-81 .how-to-take-section-3 .icon-text{
+        width: 60%;
+    margin: 0 auto;
+    padding-left: 120px;
+    position: relative;
+    font-size: 18px;
+    font-family: 'roboto',sans-serif;
+    text-align: left;
+    line-height: 1.2;
+    color: #21409a;
+}
+
+.page-node-81 .how-to-take-section-3 .icon-text img{
+    position: absolute;
+    left: 0;
+    top: -18px;
+}
+.page-node-81 .how-to-take-section-3{
+    padding: 60px 0;
+}
+.page-node-81 .how-to-take-section-3 .text-heavy{
+    display: block;
+}
+.page-node-81 .how-to-take-section-2 ul li,.page-node-81 .how-to-take-section-3 ul li,.page-node-81 .how-to-take-section-4 ul li{
+	color: #00bdf2;
+	font-size: 18px;
+}
+.page-node-81 .how-to-take-section-2 ul li>span,.page-node-81 .how-to-take-section-3 ul li>span,.page-node-81 .how-to-take-section-4 ul li>span{
+	color: #58595b;
+    font-family: 'roboto',sans-serif;
+    font-size: 18px;
+}
+.how-to-take-section-4 .section-4-content{
+	display: table;
+    width: 86%;
+}
+.how-to-take-section-4 .section-4-content .section-4-content-left{
+	display: table-cell;
+    vertical-align: top;
+    width: 53%;
+}
+.how-to-take-section-4 .section-4-content .section-4-content-right{
+	display: table-cell;
+    vertical-align: top;
+    width: 47%;
+}
+.how-to-take-section-4 .section-4-content .section-4-content-right ul{
+	padding-left: 75px;
+}
+.page-node-81 .how-to-take-section-4 .section-4-content-left ul{
+	padding-left: 0;
+}
+.page-node-81 .how-to-take-section-4 ul li{
+	list-style-type: none;
+    position: relative;
+    padding-left: 75px;
+    margin: 0 0 37px 0;
+}
+.page-node-81 .how-to-take-section-4 ul li:before{
+	display: inline-block;
+    content: '•';
+    position: absolute;
+    left: 59px;
+    font-size: 30px;
+    top: 0;
+    line-height: 0.5;
+
+}
+.page-node-81 .how-to-take-section-4 ul li img{
+	position: absolute;
+    left: 0;
+}
+/*******1.2 how-to-take Somavert Works Styling Starts Here**************/
+
+/*******1.3 How to take  Styling Starts Here**************/
+.page-node-101{
+    border: 1px solid gold;
+}
+.page-node-101 .how-to-take-section-1{
+    padding: 40px 0;
+    border-bottom: 5px solid rgba(88,89,91,0.4); 
+}
+.page-node-101 .how-to-take-section-1 h2{
+    font-size: 34px;
+    font-weight: 700;
+    color: #21409a;
+    font-family: 'roboto-condensed',sans-serif;
+    word-spacing: 6px;
+    line-height: 1.1;
+}
+.page-node-101 .how-to-take-section-1 .section-1-content{
+    display: block;
+    width: 100%;
+}
+
+.page-node-101 .icon-text{
+    position: relative;
+	padding-left: 145px;
+    font-size: 18px;
+    font-family: 'roboto',sans-serif;
+    text-align: left;
+    line-height: 1.2;
+	margin-bottom: 45px;
+}
+.page-node-101 .icon-text img{
+    position: absolute;
+    left: 0;
+}
+
+.page-node-101 p.desc{
+    color: #58595b;
+    font-family: 'roboto',sans-serif;
+    font-size: 18px;
+    margin-top: 15px;
+}
+.page-node-101 .somavert-content-area a{
+    font-weight: 700;
+    font-size: inherit;
+    color: #21409a;
+	text-decoration: underline;
+}
+.page-node-101 .somavert-content-area a>sup{
+	font-size: 12px;
+	text-decoration: none;
+}
+.page-node-101 .text-heavy>a{
+    color: #21409a;
+    text-decoration: underline;
+}
+.page-node-101 .text-heavy>a:hover{
+    color: #21409a;
+    text-decoration: underline;
+}
+
+.page-node-101 .how-to-take-section-2{
+    padding: 40px 0;
+    border-bottom: 5px solid rgba(88,89,91,0.4); 
+
+}
+.page-node-101 .how-to-take-section-2 .sub-heading-sky-blue{
+    color: #00bdf2;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 0px;
+}
+.page-node-101  .how-to-take-section-3 .sub-heading-sky-blue{
+	color: #00bdf2;
+    font-size: 24px;
+    font-weight: 700;
+	margin-top: 30px;
+}
+.page-node-101 .footnotes {
+	position: relative;
+    width: 100%;
+    padding-left: 10px;
+}
+.page-node-101 .small-text{
+	font-size: 12px;
+    width: 93%;
+    color: #58595b;
+    margin-top: 55px;
+}
+.page-node-101 .how-to-banner-wrapper{
+	text-align: center;
+	display: block;
+}
+.page-node-101 .how-to-banner{
+	width: 100%;
+	max-width: 923px;
+	margin: 0 auto;
+	display: block;
+}
+.page-node-101 .how-to-take-section-3{
+	    padding: 10px 0 40px 0;
+
+}
+
+/*******1.3 How to take  Styling Ends Here**************/
+
+
+
+/*******1.4 Dosing Options Styling Starts Here**************/
+.page-node-66{
+	border: 1px solid gold;
+}
+.page-node-66 .dosing-options-section-1{
+	padding: 40px 0;
+	border-bottom: 5px solid rgba(88,89,91,0.4); 
+}
+.page-node-66 .dosing-options-section-1 h2{
+	font-size: 34px;
+    font-weight: 700;
+    color: #21409a;
+    font-family: 'roboto-condensed',sans-serif;
+    word-spacing: 6px;
+    line-height: 1.1;
+	margin-bottom: 32px;
+}
+.page-node-66 .dosing-options-section-1 .section-1-content{
+	display: table;
+	width: 100%;
+}
+.page-node-66 .dosing-options-section-1 .section-1-content .section-1-content-left{
+	display: table-cell;
+	width: 71%;
+	vertical-align: top;
+    border-right: 1px solid rgba(88,89,91,0.4);
+	padding-right: 10%;
+}
+.page-node-66 .section-1-content-left .icon-text{
+	position: relative;
+    padding-left: 87px;
+    padding-right: 30px;
+    padding-right: 30px;
+    font-size: 18px;
+    font-family: 'roboto',sans-serif;
+    text-align: left;
+    line-height: 1.6;
+}
+.page-node-66 .section-1-content-left .icon-text img{
+	position: absolute;
+    left: 0;
+}
+.page-node-66 .dosing-options-section-1 .section-1-content .section-1-content-right{
+	display: table-cell;
+	width: 29%;
+	vertical-align: top;
+	padding-left: 45px;
+	text-align: center;
+}
+.page-node-66 .dosing-options-section-1 .section-1-content .section-1-content-right .blue-text{
+	font-size: 18px;
+	color: #21409a;
+	padding-right: 0px;
+	text-align: left;
+}
+.page-node-66 .dosing-options-section-1 .section-1-content .section-1-content-right .blue-text>a{
+	color: #21409a;
+	font-weight: 700;
+	text-decoration: underline;
+}
+.page-node-66 .dosing-options-section-1 .section-1-content .section-1-content-right .blue-text>a:hover{
+		color: #21409a;
+}
+.page-node-66 p.desc{
+	color: #58595b;
+    font-family: 'roboto',sans-serif;
+    font-size: 18px;
+	margin-top: 15px;
+}
+.page-node-66 .text-heavy,.page-node-66 .text-heavy>a{
+	font-weight: 700;
+	font-size: inherit;
+	color: inherit;
+	font-family: inherit;
+}
+.page-node-66 .text-heavy>a{
+	color: #21409a;
+	text-decoration: underline;
+}
+.page-node-66 .text-heavy>a:hover{
+	color: #21409a;
+	text-decoration: underline;
+}
+
+.page-node-66 .dosing-options-section-2{
+	padding: 40px 165px 40px 0;
+}
+
+.page-node-66 .dosing-options-section-2 p.icon-text{
+	padding-left: 165px;
+	font-size: 24px;
+	color: #21409a;
+	position: relative;
+}
+.page-node-66 .dosing-options-section-2 p.icon-text img{
+	position: absolute;
+    left: 0;
+    top: -18px;
+}
+.page-node-66 .dosing-options-section-2 p.icon-text .text-normal{
+	color: #58595b;
+	font-size: 18px;	
+}
+.page-node-66 .dosing-options-section-2 p.icon-text sup{
+	font-size: 12px;
+}
+
+
+/*******1.4 Dosing Options Styling Starts Here**************/
+
+
+/*******1.5 Side-effects Styling Starts Here**************/
+.page-node-71{
+	border: 1px solid gold;
+}
+.page-node-71 .side-effects-section-1{
+	padding: 40px 0;
+}
+.page-node-71 .side-effects-section-1 h2{
+	font-size: 34px;
+    font-weight: 700;
+    color: #21409a;
+    font-family: 'roboto-condensed',sans-serif;
+    word-spacing: 6px;
+    line-height: 1.1;
+	margin-bottom: 32px;
+}
+.page-node-71 .side-effects-section-1 .section-1-content{
+	display: table;
+	width: 100%;
+}
+.page-node-71 .side-effects-section-1 .section-1-content .section-1-content-left{
+	display: table-cell;
+	width: 71%;
+	vertical-align: top;
+	padding-right: 1%;
+}
+.page-node-71 .section-1-content-left .icon-text{
+	padding-left: 110px;
+    font-size: 18px;
+    color: #21409a;
+    position: relative;
+    padding-right: 160px;
+}
+.page-node-71 .section-1-content-left .icon-text img{
+	position: absolute;
+    left: 0;
+}
+.page-node-71 .section-1-content-left .icon-text .text-block{
+	display: inline-block;
+	margin-bottom:15px;
+}
+.page-node-71 .section-1-content-left .icon-text .text-block a{
+	color: inherit;
+	text-decoration: underline;
+	font-weight: 700;
+}.page-node-71 .section-1-content-left .icon-text .text-block a:hover{
+	color: inherit;
+	text-decoration: underline;
+}
+.page-node-71 .side-effects-section-1 .section-1-content .section-1-content-right{
+	display: table-cell;
+	width: 29%;
+	vertical-align: top;
+	padding-left: 45px;
+	text-align: center;
+}
+
+.page-node-71 .side-effects-section-1 .section-1-content .section-1-content-right img{
+	width: 100%;
+	max-width: 100%;
+	display: block;
+}
+.page-node-71 .side-effects-section-1 .section-1-content .section-1-content-right .blue-text{
+	font-size: 18px;
+	color: #21409a;
+	padding-right: 0px;
+	text-align: left;
+}
+.page-node-71 .side-effects-section-1 .section-1-content .section-1-content-right .blue-text>a{
+	color: #21409a;
+	font-weight: 700;
+	text-decoration: underline;
+}
+.page-node-71 .side-effects-section-1 .section-1-content .section-1-content-right .blue-text>a:hover{
+		color: #21409a;
+}
+.page-node-71 p.desc{
+	color: #58595b;
+    font-family: 'roboto',sans-serif;
+    font-size: 18px;
+	margin-top: 15px;
+}
+.page-node-71 .text-heavy,.page-node-71 .text-heavy>a{
+	font-weight: 700;
+	font-size: inherit;
+	color: inherit;
+	font-family: inherit;
+}
+.page-node-71 .text-heavy>a{
+	color: #21409a;
+	text-decoration: underline;
+}
+.page-node-71 .text-heavy>a:hover{
+	color: #21409a;
+	text-decoration: underline;
+}
+
+.page-node-71 .side-effects-section-1 .sub-heading-sky-blue{
+	color: #00bdf2;
+    font-size: 24px;
+    font-weight: 700;
+	margin-top: 30px;
+}
+.page-node-71  .side-effects-section-1 .bor-btm-seperator{
+	width: 100%;
+	border-bottom: 5px solid rgba(88,89,91,0.4);
+	padding-bottom: 40px;
+
+}
+
+
+/*******1.5 Side-effects Styling Starts Here**************/
+
+
+
+/*******Global ISI Section Styling Starts Here**************/
+/*.footer-first-region{
+	position: fixed;
+    border: 1px solid red;
+    height: 200px;
+    bottom: 0;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}Uncomment to make it fixed position*/
+.block-ISI h2{
+	display: none;
+}
+.global-ISI-header{
+	background: #9ece5c;
+}
+.global-ISI-header ul{
+	padding-left: 0;
+	list-style-type: none;
+}
+.global-ISI-header ul li{
+	display: inline-block;
+    position: relative;
+    padding-left: 9%;
+    line-height: 60px;
+    width: 24%;
+	border-left: 1px solid #fff;
+}
+.global-ISI-header ul li:first-child{
+	border-left: none;
+}
+.global-ISI-header ul li img{
+	position: absolute;
+    left: 30px;
+	top: 12%;
+}
+.global-ISI-header ul li a{
+	color: #fff;
+	font-size: 18px;
+	font-weight: 700;
+}
+.global-ISI-header ul li a:hover{
+	text-decoration: none;
+}
+
+.global-ISI-content header h3{
+	width: 75%;
+	float:left;
+	color: #21409a;
+	font-size: 22px;
+	font-weight: 700;
+	margin-top: 0!important;
+}
+.global-ISI-content header{
+	margin-top: 30px;
+}
+.global-ISI-content header p{
+	display: inline-block;
+	margin-top: 0;
+}
+.global-ISI-content h3{
+	margin-top: 30px;
+	color: #21409a;
+	font-size: 22px;
+	font-weight: 700;
+}
+.global-ISI-content .click-here{
+	font-size: 16px;
+	font-weight: 700;
+	color: #21409a;
+}
+.global-ISI-content .click-here:hover{
+		text-decoration:none;		
+}
+.global-ISI-content .click-here > img{
+	display: inline-block;
+	width: 24px;
+	height: auto;
+}
+.global-ISI-content p{
+	font-size: 18px;
+	color: #58595b;
+	margin-top: 15px;
+}
+.global-ISI-content p.text-bold{
+	font-weight: 700;
+}
+.global-ISI-content p.text-bold>a{
+	color: #21409a;
+	text-decoration: underline;
+}
+.global-ISI-content ul li{
+	font-size: 18px;
+	color: #58595b;
+	margin-top: 16px;
+}
+.global-ISI-content .ISI-navigation ul{
+	padding-left: 0;
+	list-style-type: none;
+}
+.global-ISI-content .ISI-navigation ul li{
+	display: inline-block;
+	text-align: left;
+}
+.global-ISI-content .ISI-navigation ul li a{
+	color: #21409a;
+	font-size: 18px;
+    text-decoration: none;
+    display: block;
+    line-height: 1.2;
+    border-right: 1px solid #21409a;
+	padding: 0 12px;
+}
+.global-ISI-content .ISI-navigation ul li:first-child a{
+	padding-left: 0;
+}
+.global-ISI-content .ISI-navigation ul li:last-child a {
+	border-right: 0;
+}
+.global-ISI-content .ISI-navigation ul li a:hover{
+		text-decoration: none;
+}
+.global-ISI-footer{
+	margin-top: 40px;
+}
+.global-ISI-footer ul{
+	padding-left: 0;
+	list-style-type: none;
+	display: table;
+	margin-top:0;
+}
+.global-ISI-footer ul li{
+	display: table-cell;
+	text-align: left;
+	vertical-align: middle;
+    font-size: 18px;
+    color: #58595b;
+}
+.global-ISI-footer ul li:nth-child(1){
+	width: 15%;
+}
+.global-ISI-footer ul li:nth-child(2){
+	width: 72%;
+}
+/*******Global ISI Section Styling Starts Here**************/
+
+/*******3.0 Tools and Resource LP Styling Starts Here**************/
+.page-node-106{
+	border: 1px solid gold;
+}
+.page-node-106 .tools-and-resource-lp-1{
+	padding: 40px 0;
+	border-bottom: 5px solid rgba(88,89,91,0.4); 
+}
+.page-node-106 .tools-and-resource-lp-1 h2{
+	font-size: 34px;
+    font-weight: 700;
+    color: #21409a;
+    font-family: 'roboto-condensed',sans-serif;
+    line-height: 1.1;
+}
+
+.page-node-106 .tools-and-resource-lp-1 h2>sup{
+	font-size:22px;
+}
+.page-node-106 .tools-and-resource-lp-1 .section-1-content{
+	display: table;
+	width: 100%;
+}
+.page-node-106 .tools-and-resource-lp-1 .section-1-content .section-1-content-left{
+	display: table-cell;
+	width: 50%;
+	vertical-align: top;
+	}
+.page-node-106 .section-1-content-left .icon-text{
+	position: relative;
+    padding-left: 87px;
+    padding-right: 30px;
+    padding-right: 30px;
+    font-size: 18px;
+    font-family: 'roboto',sans-serif;
+    text-align: left;
+    line-height: 1.6;
+}
+.page-node-106 .section-1-content-left .icon-text img{
+	position: absolute;
+    left: 0;
+}
+.page-node-106 .tools-and-resource-lp-1 .section-1-content .section-1-content-right{
+	display: table-cell;
+    width: 40%;
+    vertical-align: top;
+    padding-left: 45px;
+    text-align: left;
+}
+.page-node-106 .tools-and-resource-lp-1 .section-1-content .section-1-content-right img{
+	width: 100%;
+	max-width: 322px;
+}
+.page-node-106 .tools-and-resource-lp-1 .section-1-content .blue-text{
+	font-size: 18px;
+	color: #21409a;
+	text-align: left;
+}
+.page-node-106 .tools-and-resource-lp-1 .section-1-content .blue-text{
+	color: #21409a;
+	font-weight: 700;
+	text-decoration: underline;
+}
+.page-node-106 .tools-and-resource-lp-1 .section-1-content .blue-text:hover{
+		color: #21409a;
+}
+.page-node-106 p.desc{
+	color: #58595b;
+    font-family: 'roboto',sans-serif;
+    font-size: 18px;
+	margin-top: 15px;
+}
+.page-node-106 .text-heavy,.page-node-106 .text-heavy>a{
+	font-weight: 700;
+	font-size: inherit;
+	color: inherit;
+	font-family: inherit;
+}
+.page-node-106 .text-heavy>a{
+	color: #21409a;
+	text-decoration: underline;
+}
+.page-node-106 .text-heavy>a:hover{
+	color: #21409a;
+	text-decoration: underline;
+}
+
+.page-node-106 .tools-and-resource-lp-2{
+	padding: 40px 0;
+	border-bottom: 5px solid rgba(88,89,91,0.4); 
+
+}
+.page-node-106 .tools-and-resource-lp-2 .sub-heading-sky-blue{
+	color: #00bdf2;
+    font-size: 24px;
+    font-weight: 700;
+	margin-top: 20px;
+}
+.page-node-106 .tools-and-resource-lp-2 img{
+	    width: 100%;
+    max-width: 1012px;
+    height: auto;
+    display: inline-block;
+    margin: 60px 0;
+}
+.page-node-106 .tools-and-resource-lp-2 img map, map area{
+    outline: none;
+}
+.page-node-106 .tools-and-resource-lp-3 .icon-text{
+	    width: 60%;
+    margin: 0 auto;
+    padding-left: 120px;
+    position: relative;
+    font-size: 18px;
+    font-family: 'roboto',sans-serif;
+    text-align: left;
+    line-height: 1.2;
+    color: #21409a;
+}
+
+.page-node-106 .tools-and-resource-lp-3 .icon-text img{
+	position: absolute;
+	left: 0;
+    top: -18px;
+}
+.page-node-106 .tools-and-resource-lp-3{
+	padding: 60px 0;
+}
+.page-node-106 .tools-and-resource-lp-3 .text-heavy{
+	display: block;
+}
+
+.page-node-106 .footnotes{
+	    position: relative;
+    width: 100%;
+    padding-left: 10px;
+}
+.page-node-106 .small-text{
+	    font-size: 12px;
+    width: 93%;
+    color: #58595b;
+    margin-top: 55px;
+}
+
+/*******3.0 Tools and Resource LP Styling Starts Here**************/
+
+/*3.1 Downloadable Resource Styling Starts*/
+.page-node-121{
+	border: 2px solid blue;
+}
+
+.page-node-121 .somavert-content-area h2{
+	font-size: 34px;
+    font-weight: 700;
+    color: #21409a;
+    font-family: 'roboto-condensed',sans-serif;
+    word-spacing: 6px;
+    line-height: 1.1;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.page-node-121 .somavert-content-area h2>a{
+	color: inherit;
+	text-decoration: underline;
+}
+
+.page-node-121 p.desc{
+	color: #58595b;
+    font-family: 'roboto',sans-serif;
+    font-size: 18px;
+    margin-bottom: 0;
+	margin-top: 0;
+    width: 70%;
+}
+.page-node-121 .downloadable-reasource-table{
+	display: table;
+    width: 100%;
+}
+.page-node-121 .downloadable-reasource-left{
+	display: table-cell;
+    width: 50%;
+    padding-right: 50px;
+	border-right: 1px solid rgba(88, 89, 91, 0.4);
+}
+.page-node-121 .downloadable-reasource-right{
+    display: table-cell;
+    padding-left: 3%;
+}
+.page-node-121 .sub-heading-sky-blue{
+	color: #00bdf2;
+    font-size: 16px;
+    font-weight: 700;
+    width: 70%;
+    margin: 0;
+	background-image: url('/sites/g/files/g10052221/f/201810/IC-ToolsNRes-3.1-Dwld.png');
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: 26px 26px;
+	padding-left: 35px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.page-node-121 .sub-heading-sky-blue a{
+	color: inherit;
+}
+.page-node-121 .downloadable-reasource-list-item {
+    display: block;
+    width: 100%;
+    position: relative;
+	margin-bottom: 30px;
+}
+.page-node-121 .downloadable-reasource-right .downloadable-reasource-list-item{
+	display: block;
+    width: 100%;
+    position: relative;
+}
+.page-node-121 .downloadable-reasource-list-item img{
+	position: absolute;
+    right: 0;
+}
+.page-node-121 .downloadable-reasource-list-item sup{
+	font-size: 12px;
+}
+.downloadable-reasource-list-item p.desc>.gray-text{
+	font-size: 18px;
+	color: #58595b;
+	font-weight: 700;
+}
+p.padding-left-mng{
+	padding-left: 10px;
+}
+.page-node-121 p.footnotes{
+	position: relative;
+	width: 100%;
+	padding-left: 10px;
+}
+.page-node-121 p.small-text{
+	font-size: 12px;
+	width: 93%;
+	color: #58595b;
+	margin-top: 10px;
+}
+
+p.footnotes>sup{
+	position: absolute;
+	left: 0px;
+	font-size: 9px;
+}    
+.mar-bt-zero{
+	margin-bottom: 0 !important;
+}
+.mar-tp-40-desk{
+	margin-top: 40px !important;
+}
+.page-node-121 .sky-blue-bg{
+	background-color: rgba(0, 189, 242, 0.19);
+	padding-left: 25px;
+	padding-top: 45px;
+	padding-bottom: 45px;
+}
+.page-node-121 .sky-blue-bg img{
+	right: 15px!important;
+}
+.page-node-121 .blue-text{
+	color: #21409a!important;
+	width: 83%!important;
+
+}
+.page-node-121 .blue-text-heavy{
+	color: inherit;
+	font-weight: 700;
+}
+/*3.1 Downloadable Resource Styling Ends*/
+
+/*******3.2 Tools and Resource Vid Lib Styling Starts Here**************/
+.page-node-126{
+	border: 1px solid gold;
+}
+.page-node-126 .soma-vid-lib-1{
+	padding: 40px 0;
+}
+.page-node-126 .soma-vid-lib-1 h2{
+	font-size: 34px;
+    font-weight: 700;
+    color: #21409a;
+    font-family: 'roboto-condensed',sans-serif;
+    line-height: 1.1;
+}
+
+.page-node-126 .soma-vid-lib-1 h2>sup{
+	font-size:22px;
+}
+.page-node-126 .soma-vid-lib-1 .section-1-content{
+	display: table;
+	width: 100%;
+}
+.page-node-126 .soma-vid-lib-1 .section-1-content .section-1-content-left{
+	display: table-cell;
+	width: 70%;
+	vertical-align: top;
+	}
+.page-node-126 .section-1-content-left .icon-text{
+	position: relative;
+    padding-left: 87px;
+    padding-right: 30px;
+    padding-right: 30px;
+    font-size: 18px;
+    font-family: 'roboto',sans-serif;
+    text-align: left;
+    line-height: 1.6;
+}
+.page-node-126 .section-1-content-left .icon-text img{
+	position: absolute;
+    left: 0;
+}
+.page-node-126 .soma-vid-lib-1 .section-1-content .section-1-content-right{
+	display: table-cell;
+    width: 30%;
+    vertical-align: top;
+    padding-left: 0px;
+    text-align: left;
+}
+
+.page-node-126 .soma-vid-lib-1 .section-1-content .section-1-content-left .vid-section-1{
+	display: table;
+    width: 100%;
+	border-bottom: 5px solid rgba(88,89,91,0.4);
+	padding-top: 40px;
+    padding-bottom: 40px;
+}
+.page-node-126 .soma-vid-lib-1 .section-1-content .section-1-content-left .vid-section-1 .video-container{
+	    display: table-cell;
+    vertical-align: middle;
+}
+.page-node-126 .soma-vid-lib-1 .section-1-content .section-1-content-left .vid-section-1 .video-content{
+	    display: table-cell;
+    vertical-align: middle;
+    padding-left: 30px
+}
+.page-node-126 .soma-vid-lib-1 .section-1-content .section-1-content-left .vid-section-2{
+	display: table;
+    width: 100%;
+	padding-top: 40px;
+    padding-bottom: 40px;
+}
+.page-node-126 .soma-vid-lib-1 .section-1-content .section-1-content-left .vid-section-2 .video-container{
+	    display: table-cell;
+    vertical-align: middle;
+}
+.page-node-126 .soma-vid-lib-1 .section-1-content .section-1-content-left .vid-section-2 .video-content{
+		    display: table-cell;
+    vertical-align: middle;
+	    padding-left: 46px;
+}
+.page-node-126 .soma-vid-lib-1 .section-1-content .section-1-content-right img{
+	width: 100%;
+	max-width: 445px;
+}
+.page-node-126 .soma-vid-lib-1 .section-1-content .blue-text{
+	font-size: 18px;
+	color: #21409a;
+	text-align: left;
+}
+.page-node-126 .soma-vid-lib-1 .section-1-content .blue-text{
+	color: #21409a;
+	font-weight: 700;
+	text-decoration: underline;
+}
+.page-node-126 .soma-vid-lib-1 .section-1-content .blue-text:hover{
+		color: #21409a;
+}
+.page-node-126 p.desc{
+	color: #58595b;
+    font-family: 'roboto',sans-serif;
+    font-size: 18px;
+	margin-top: 15px;
+}
+.page-node-126 .text-heavy,.page-node-126 .text-heavy>a{
+	font-weight: 700;
+	font-size: inherit;
+	color: inherit;
+	font-family: inherit;
+}
+.page-node-126 .text-heavy>a{
+	color: #21409a;
+	text-decoration: underline;
+}
+.page-node-126 .text-heavy>a:hover{
+	color: #21409a;
+	text-decoration: underline;
+}
+
+
+.page-node-126 .sub-heading-sky-blue{
+	color: #00bdf2;
+    font-size: 24px;
+    font-weight: 700;
+	margin-top: 20px;
+}
+
+.page-node-126 .footnotes{
+	    position: relative;
+    width: 100%;
+    padding-left: 10px;
+}
+.page-node-126 .small-text{
+	    font-size: 12px;
+    width: 93%;
+    color: #58595b;
+    margin-top: 55px;
+}
+
+/*******3.2 Tools and Resource Vid Lib Styling Starts Here**************/
+
+/*******3.5 Tools and Resource Acro Community Styling Starts Here**************/
+.page-node-131{
+	border: 1px solid gold;
+}
+.page-node-131 .acro-community-1{
+	padding: 40px 0;
+	border-bottom: 5px solid rgba(88,89,91,0.4); 
+}
+.page-node-131 .acro-community-1 h2{
+	font-size: 34px;
+    font-weight: 700;
+    color: #21409a;
+    font-family: 'roboto-condensed',sans-serif;
+    line-height: 1.1;
+}
+
+.page-node-131 .acro-community-1 h2>sup{
+	font-size:22px;
+}
+.page-node-131 .acro-community-1 .section-1-content{
+	display: table;
+	width: 100%;
+}
+.page-node-131 .acro-community-1 .section-1-content .section-1-content-left{
+	display: table-cell;
+    width: 70%;
+	vertical-align: top;
+	}
+
+.page-node-131 .acro-community-1 .section-1-content .section-1-content-right{
+	display: table-cell;
+    width: 30%;
+    vertical-align: top;
+    padding-left: 100px;
+    text-align: left;
+}
+.page-node-131 .acro-community-1 .section-1-content .section-1-content-right img{
+	width: 100%;
+	max-width: 130px;
+	margin: 0;
+}
+.page-node-131 .blue-text{
+	font-size: 18px;
+	color: #21409a;
+	text-align: left;
+	font-weight: 700;
+	text-decoration: underline;
+}
+
+.page-node-131 .blue-text:hover{
+		color: #21409a;
+}
+.page-node-131 p.desc{
+	color: #58595b;
+    font-family: 'roboto',sans-serif;
+    font-size: 18px;
+	margin-top: 15px;
+}
+.page-node-131 .text-heavy,.page-node-131 .text-heavy>a{
+	font-weight: 700;
+	font-size: inherit;
+	color: inherit;
+	font-family: inherit;
+}
+.page-node-131 .text-heavy>a{
+	color: #21409a;
+	text-decoration: underline;
+}
+.page-node-131 .text-heavy>a:hover{
+	color: #21409a;
+	text-decoration: underline;
+}
+
+.page-node-131 .acro-community-2{
+	padding: 40px 0;
+	border-bottom: 5px solid rgba(88,89,91,0.4); 
+
+}
+.page-node-131 .acro-community-2 .section-1-content{
+	display: table;
+	width: 100%;
+}
+.page-node-131 .acro-community-2 .section-1-content .section-1-content-left{
+	display: table-cell;
+	width: 40%;
+	padding-right: 30px;
+
+}
+.page-node-131 .acro-community-2 .section-1-content .section-1-content-right{
+	display: table-cell;
+	width: 40%;
+	padding-left: 42px;
+}
+.page-node-131 .sub-heading-sky-blue{
+	color: #00bdf2;
+    font-size: 24px;
+    font-weight: 700;
+	margin-top: 20px;
+}
+
+.page-node-131 .footnotes{
+	    position: relative;
+    width: 100%;
+    padding-left: 10px;
+}
+.page-node-131 .small-text{
+	    font-size: 12px;
+    width: 93%;
+    color: #58595b;
+    margin-top: 55px;
+}
+
+/*******3.5 Tools and Resource Vid Lib Styling Starts Here**************/
+
+/*******3.3 Tools and Resource FAQ Styling Starts Here**************/
+.page-node-21{
+	border: 1px solid gold;
+}
+.page-node-21 .faq-about-soma{
+	padding: 40px 0;
+}
+.page-node-21 .faq-about-soma h2{
+	font-size: 34px;
+    font-weight: 700;
+    color: #21409a;
+    font-family: 'roboto-condensed',sans-serif;
+    line-height: 1.1;
+}
+
+.page-node-21 .faq-about-soma h2>sup{
+	font-size:22px;
+}
+
+.page-node-21 .faq-about-soma .blue-text{
+	font-size: 18px;
+	color: #21409a;
+	text-align: left;
+}
+.page-node-21 .faq-about-soma .blue-text{
+	color: #21409a;
+	font-weight: 700;
+	text-decoration: underline;
+}
+.page-node-21 .faq-about-soma .blue-text:hover{
+		color: #21409a;
+}
+.page-node-21 p.desc{
+	color: #58595b;
+    font-family: 'roboto',sans-serif;
+    font-size: 18px;
+	margin-top: 15px;
+}
+.page-node-21 .text-heavy,.page-node-21 .text-heavy>a{
+	font-weight: 700;
+	font-size: inherit;
+	color: inherit;
+	font-family: inherit;
+}
+.page-node-21 .text-heavy>a{
+	color: #21409a;
+	text-decoration: underline;
+}
+.page-node-21 .text-heavy>a:hover{
+	color: #21409a;
+	text-decoration: underline;
+}
+
+.page-node-21 .sub-heading-sky-blue{
+	color: #00bdf2;
+    font-size: 24px;
+    font-weight: 700;
+	margin-top: 20px;
+}
+
+.page-node-21 .footnotes{
+	    position: relative;
+    width: 100%;
+    padding-left: 10px;
+}
+.page-node-21 .small-text{
+	    font-size: 12px;
+    width: 93%;
+    color: #58595b;
+    margin-top: 55px;
+}
+.page-node-21 .block-views{
+	width: 100%;
+	margin-top: 0;
+}
+.page-node-21 .block-views .view-frequently-asked-questions{
+	width: 100%;
+    max-width: 1160px;
+    margin: 0 auto;
+}
+.page-node-21 .block-views .view-frequently-asked-questions h3{
+	    color: #00bdf2;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.page-node-21 .block-views .view-frequently-asked-questions .views-row{
+	display: block;
+    width: 100%;
+    margin-top: 0;
+    position: relative;
+}
+.page-node-21 .block-views .view-frequently-asked-questions .views-row .views-field-title{
+	width: 46.4%;
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid #21409a;
+    background-color: #fff;
+    background-image: url(/sites/g/files/g10052221/f/201810/IC-ToolsNRes-3.3-Open.png);
+    background-repeat: no-repeat;
+    background-position: 96%;
+    background-size: 16px auto;
+    padding: 20px;
+    font-size: 18px;
+	color: #21409a;
+}
+.page-node-21 .block-views .view-frequently-asked-questions .views-row .views-field-body{
+	width: 49%;
+    border: 1px solid #21409a;
+    display: none;
+    position: absolute;
+    left: 50%;
+    top: 0;
+	padding: 10px 20px;
+}
+.page-node-21 .block-views .view-frequently-asked-questions .views-row .views-field-body p{
+    color: #21409a;
+	font-size: 16px;
+	margin-top:0px;
+}
+.page-node-21 .block-views .view-frequently-asked-questions .views-row .views-field-body p.small-text{
+	font-size:12px;
+}
+.page-node-21 .block-views .view-frequently-asked-questions .views-row .views-field-body ul li{
+	    color: #21409a;
+    font-size: 16px;
+}
+.page-node-21 .block-views .view-frequently-asked-questions .views-row .views-field-body ul.dash{
+	list-style: none;
+    margin-left: 0;
+    padding-left: 1em;
+}
+.page-node-21 .block-views .view-frequently-asked-questions .views-row .views-field-body ul.dash li{
+	    color: #21409a;
+    font-size: 16px;
+} 
+.page-node-21 .block-views .view-frequently-asked-questions .views-row .views-field-body ul.dash li:before{
+	display: inline-block;
+    content: "-";
+    width: 1em;
+    margin-left: -1em;
+}
+.page-node-21 .block-views .view-frequently-asked-questions .views-row .active{
+	background-color: #21409a!important;
+    background-image: url('/sites/g/files/g10052221/f/201810/IC-ToolsNRes-3.3-Close.png')!important;
+    color: #fff!important;
+}
+
+/*******3.3 Tools and Resource FAQ Styling Ends Here**************/
